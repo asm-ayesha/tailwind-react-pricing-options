@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Link = ({ route }) => {
-    console.log(route)
+    
     return (
         <div>
             <li className='hover:text-violet-400'>

@@ -1,74 +1,142 @@
-const plans = [
-    {
-    id: 1,
-    name: "Starter",
-    tag: null,
-    description: "Perfect for beginners getting into fitness.",
-    monthlyPrice: 19,
-    yearlyPrice: 15,
-    features: [
-            { label: "Gym floor access",        included: true
-            },
-            { label: "Locker room access",       included: true
-            },
-            { label: "2 group classes/month",    included: true
-            },
-            { label: "Personal trainer session", included: false
-            },
-            { label: "Sauna & steam room",       included: false
-            },
-            { label: "Nutrition consultation",   included: false
-            },
-            { label: "Guest passes",             included: false
-            },
-        ]
-    },
-    {
-    id: 2,
-    name: "Pro",
-    tag: "Most popular",
-    description: "The ideal balance of access and coaching.",
-    monthlyPrice: 49,
-    yearlyPrice: 39,
-    features: [
-            { label: "Gym floor access",              included: true
-            },
-            { label: "Locker room access",             included: true
-            },
-            { label: "Unlimited group classes",        included: true
-            },
-            { label: "2 personal trainer sessions/mo", included: true
-            },
-            { label: "Sauna & steam room",             included: true
-            },
-            { label: "Nutrition consultation",         included: false
-            },
-            { label: "Guest passes (1/month)",         included: false
-            },
-        ]
-    },
-    {
-    id: 3,
-    name: "Elite",
-    tag: null,
-    description: "Full access with premium coaching & perks.",
-    monthlyPrice: 89,
-    yearlyPrice: 71,
-    features: [
-            { label: "Gym floor access",               included: true
-            },
-            { label: "Locker room access",              included: true
-            },
-            { label: "Unlimited group classes",         included: true
-            },
-            { label: "4 personal trainer sessions/mo",  included: true
-            },
-            { label: "Sauna & steam room",              included: true
-            },
-            { label: "Monthly nutrition consultation",  included: true
-            },
-            { label: "Guest passes (2/month)",          included: true
-            },
-        ]
-    }
-];
+{
+    "plans": [
+        {
+            "id": 1,
+            "name": "Starter",
+            "tag": null,
+            "description": "Perfect for beginners getting into fitness.",
+            "monthlyPrice": 19,
+            "yearlyPrice": 15,
+            "featured": false,
+            "features": [
+                {
+                    "id": "f1",
+                    "label": "Gym floor access",
+                    "included": true
+                },
+                {
+                    "id": "f2",
+                    "label": "Locker room access",
+                    "included": true
+                },
+                {
+                    "id": "f3",
+                    "label": "2 group classes/month",
+                    "included": true
+                },
+                {
+                    "id": "f4",
+                    "label": "Personal trainer session",
+                    "included": false
+                },
+                {
+                    "id": "f5",
+                    "label": "Sauna & steam room",
+                    "included": false
+                },
+                {
+                    "id": "f6",
+                    "label": "Nutrition consultation",
+                    "included": false
+                },
+                {
+                    "id": "f7",
+                    "label": "Guest passes",
+                    "included": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pro",
+            "tag": "Most popular",
+            "description": "The ideal balance of access and coaching.",
+            "monthlyPrice": 49,
+            "yearlyPrice": 39,
+            "featured": true,
+            "features": [
+                {
+                    "id": "f1",
+                    "label": "Gym floor access",
+                    "included": true
+                },
+                {
+                    "id": "f2",
+                    "label": "Locker room access",
+                    "included": true
+                },
+                {
+                    "id": "f3",
+                    "label": "Unlimited group classes",
+                    "included": true
+                },
+                {
+                    "id": "f4",
+                    "label": "2 personal trainer sessions/mo",
+                    "included": true
+                },
+                {
+                    "id": "f5",
+                    "label": "Sauna & steam room",
+                    "included": true
+                },
+                {
+                    "id": "f6",
+                    "label": "Nutrition consultation",
+                    "included": false
+                },
+                {
+                    "id": "f7",
+                    "label": "Guest passes (1/month)",
+                    "included": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Elite",
+            "tag": null,
+            "description": "Full access with premium coaching & perks.",
+            "monthlyPrice": 89,
+            "yearlyPrice": 71,
+            "featured": false,
+            "features": [
+                {
+                    "id": "f1",
+                    "label": "Gym floor access",
+                    "included": true
+                },
+                {
+                    "id": "f2",
+                    "label": "Locker room access",
+                    "included": true
+                },
+                {
+                    "id": "f3",
+                    "label": "Unlimited group classes",
+                    "included": true
+                },
+                {
+                    "id": "f4",
+                    "label": "4 personal trainer sessions/mo",
+                    "included": true
+                },
+                {
+                    "id": "f5",
+                    "label": "Sauna & steam room",
+                    "included": true
+                },
+                {
+                    "id": "f6",
+                    "label": "Monthly nutrition consultation",
+                    "included": true
+                },
+                {
+                    "id": "f7",
+                    "label": "Guest passes (2/month)",
+                    "included": true
+                }
+            ]
+        }
+    ]
+}
